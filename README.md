@@ -6,4 +6,4 @@ This repo uses the Radiative Transfer code DUSTY https://github.com/ivezic/dusty
 All the original data before they were converted to W/m^2
 
 ### DATA_W_ORI
-The post converted data and scripts to normalize and plot the S00x files from DUSTY
+The holds converted data and scripts to normalize and plot the S00x files from DUSTY
