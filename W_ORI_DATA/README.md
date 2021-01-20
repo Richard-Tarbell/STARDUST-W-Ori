@@ -15,3 +15,6 @@ Make any changes needed before plotting your data.
 
 ### error_bars.py
 Creates the parameters for the error bars plotted. This data was taken from AAVSO's light curve generator.
+
+
+##### Transfered to this new account on 01/19/2021
