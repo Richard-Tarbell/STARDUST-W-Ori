@@ -6,6 +6,7 @@ file = 'amC-hann-1625td'
 path = './DUSTY_files/Models/'
 #path = 'D:/Documents/STARDUST/RESEARCH/DUSTY/Models/grf-two-shell/'
 
+EB = True # If you want your errobars plotted set to True if not leave as False
 
 # The path your converted data is located and the file names for each
 converted_path = 'FLUX_converted/'

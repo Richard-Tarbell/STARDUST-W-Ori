@@ -54,7 +54,9 @@ plt.scatter(F_nu[:,0], F_nu[:,1], c = 'black', s = 1,label = 'F12-F100')
 plt.scatter(mag[:,0], mag[:,1], c = 'black',s = 1, label = 'Filter data')
 plt.scatter(sws[:,0], sws[:,1],c = 'black',s = 1, label = 'ISO')
 plt.scatter(IRAS[:,0], IRAS[:,1], c = 'black',s = 1, label = 'IRAS')
-plt.errorbar(x,y,yerr=yerror,markersize=0.5,fmt='o',color='black',elinewidth=1.4,capsize=3)
+
+if EB == True:
+    plt.errorbar(x,y,yerr=yerror,markersize=0.5,fmt='o',color='black',elinewidth=1.4,capsize=3)
 
 
 
@@ -88,7 +90,9 @@ plt.scatter(F_nu[:,0], F_nu[:,1], c = 'black', s = 1,label = 'F12-F100')
 plt.scatter(mag[:,0], mag[:,1], c = 'black',s = 1, label = 'Filter data')
 plt.scatter(sws[:,0], sws[:,1],c = 'black',s = 1, label = 'ISO')
 plt.scatter(IRAS[:,0], IRAS[:,1], c = 'black',s = 1, label = 'IRAS')
-plt.errorbar(x,y,yerr=yerror,markersize=0.5,fmt='o',color='black',elinewidth=1.4,capsize=3)
+
+if EB == True:
+    plt.errorbar(x,y,yerr=yerror,markersize=0.5,fmt='o',color='black',elinewidth=1.4,capsize=3)
 
 
 
@@ -121,7 +125,9 @@ plt.scatter(F_nu[:,0], F_nu[:,1], c = 'black', s = 1,label = 'F12-F100')
 plt.scatter(mag[:,0], mag[:,1], c = 'black',s = 1, label = 'Filter data')
 plt.scatter(sws[:,0], sws[:,1],c = 'black',s = 1, label = 'ISO')
 plt.scatter(IRAS[:,0], IRAS[:,1], c = 'black',s = 1, label = 'IRAS')
-plt.errorbar(x,y,yerr=yerror,markersize=0.5,fmt='o',color='black',elinewidth=1.4,capsize=3)
+
+if EB == True:
+    plt.errorbar(x,y,yerr=yerror,markersize=0.5,fmt='o',color='black',elinewidth=1.4,capsize=3)
 
 
 
@@ -152,7 +158,9 @@ plt.scatter(F_nu[:,0], F_nu[:,1], c = 'black', s = 1,label = 'F12-F100')
 plt.scatter(mag[:,0], mag[:,1], c = 'black',s = 1, label = 'Filter data')
 plt.scatter(sws[:,0], sws[:,1],c = 'black',s = 1, label = 'ISO')
 plt.scatter(IRAS[:,0], IRAS[:,1], c = 'black',s = 1, label = 'IRAS')
-plt.errorbar(x,y,yerr=yerror,markersize=0.5,fmt='o',color='black',elinewidth=1.4,capsize=3)
+
+if EB == True:
+    plt.errorbar(x,y,yerr=yerror,markersize=0.5,fmt='o',color='black',elinewidth=1.4,capsize=3)
 
 
 
